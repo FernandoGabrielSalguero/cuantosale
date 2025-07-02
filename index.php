@@ -60,10 +60,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'admin':
                 header('Location: /views/admin/admin_dashboard.php');
                 break;
-            case 'asistente':
+            case 'user':
                 header('Location: /views/asistente/asistente_dashboard.php');
                 break;
-            case 'asociado':
+            case 'comercio':
                 header('Location: /views/asociado/asociado_dashboard.php');
                 break;
             default:
